@@ -2,7 +2,7 @@
 
 Informationsseite für Anwohnerinnen und Anwohner der Stegesiedlung Schönholz zum Thema Abwasserbeseitigung.
 
-Veröffentlicht unter: https://thimble9633.github.io/abwasser-stegesiedlung
+Veröffentlicht unter: https://thimble9633.github.io
 
 ## Lokale Entwicklung
 
@@ -24,7 +24,7 @@ Server starten:
 bundle exec jekyll serve
 ```
 
-Die Seite ist dann unter **http://localhost:4000/abwasser-stegesiedlung/** erreichbar.
+Die Seite ist dann unter **http://localhost:4000/** erreichbar.
 Jekyll erkennt Dateiänderungen automatisch – Browser-Reload genügt.
 
 Optional mit automatischem Browser-Reload:
