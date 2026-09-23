@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hauptversammung Wassergemeinschaft"
+title: "Hauptversammlung Wassergemeinschaft"
 date: 2026-09-23
 ---
 
