@@ -1,0 +1,125 @@
+---
+layout: default
+title: Überblick
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Stegesiedlung · Abwasserbeseitigung</p>
+      <h1 class="hero__title">Der Anschluss der Stegesiedlung an das Kanalnetz</h1>
+      <p class="hero__description">
+        Hier finden Anwohnerinnen und Anwohner den jeweils aktuellen Stand: was gerade passiert,
+        was als Nächstes kommt.
+      </p>
+      <div class="hero__actions">
+        <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--primary">Aktuelle Meldungen</a>
+        <a href="{{ '/faq/' | relative_url }}" class="btn btn--outline">Fragen &amp; Antworten</a>
+      </div>
+    </div>
+
+    <div class="status-card">
+      <div class="status-card__header">
+        <span class="status-card__label">Aktuelle Phase</span>
+        <span class="status-badge status-badge--active">
+          <span class="status-badge__dot"></span>
+          Stand September 2026
+        </span>
+      </div>
+      <h2 class="status-card__phase-title">Klärung der Optionen</h2>
+      <p class="status-card__phase-desc">
+        Es muss geklärt werden wer für die Planung zuständig ist und
+        welche Optionen für den Anschluss der Stegesiedlung an das Kanalnetz bestehen.
+      </p>
+      <div class="progress-bar">
+        <div class="progress-bar__fill" style="width: 15%"></div>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item">
+          <span class="phase-item__dot phase-item__dot--active"></span>
+          <div class="phase-item__info">
+            <div class="phase-item__name">Abklärung der Optionen</div>
+            <div class="phase-item__time">seit Juni 2026</div>
+          </div>
+          <span class="phase-item__badge badge--active">Läuft</span>
+        </li>
+        <li class="phase-item">
+          <span class="phase-item__dot phase-item__dot--planned"></span>
+          <div class="phase-item__info">
+            <div class="phase-item__name">Schreiben zwecks Korrektur der Gebührenpraxis</div>
+            <div class="phase-item__time">Q4 2026</div>
+          </div>
+          <span class="phase-item__badge badge--planned">Geplant</span>
+        </li>
+        <li class="phase-item">
+          <span class="phase-item__dot phase-item__dot--planned"></span>
+          <div class="phase-item__info">
+            <div class="phase-item__name">Erstellung Petition</div>
+            <div class="phase-item__time">Q4 2026</div>
+          </div>
+          <span class="phase-item__badge badge--planned">Geplant</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Was Sie wissen müssen</p>
+      <h2 class="section__title">Wichtige Informationen auf einen Blick</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card__icon">📋</div>
+        <h3 class="card__title">Anschlusspflicht</h3>
+        <p class="card__text">
+          Sollte in der Siedlung ein Schmutzwasserkanal gelegt werden, 
+          besteht keine Anschlusspflicht für die Bewohner.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card__icon">💰</div>
+        <h3 class="card__title">Kosten &amp; Förderung</h3>
+        <p class="card__text">
+          Die Kosten für den Hausanschluss trägt der Grundstückseigentümer.
+          Informationen zu Beiträgen und möglichen Fördermitteln
+          finden Sie in den <a href="{{ '/faq/' | relative_url }}">Fragen &amp; Antworten</a>.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card__icon">❓</div>
+        <h3 class="card__title">Häufige Fragen</h3>
+        <p class="card__text">
+          Was passiert mit meiner Klärgrube? Wann muss ich handeln?
+          Was kostet der Anschluss? Antworten in den
+          <a href="{{ '/faq/' | relative_url }}">Fragen &amp; Antworten</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Neuigkeiten</p>
+      <h2 class="section__title">Aktuelle Meldungen</h2>
+    </div>
+    <ul class="post-list">
+      {% for post in site.posts limit:3 %}
+      <a class="post-item" href="{{ post.url | relative_url }}">
+        <span class="post-item__date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <div>
+          <div class="post-item__title">{{ post.title }}</div>
+          <div class="post-item__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </ul>
+    <p style="margin-top:1.5rem">
+      <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--outline">Alle Meldungen →</a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+title: Abwasser Stegesiedlung
+description: Informationen zum Anschluss der Stegesiedlung an das öffentliche Kanalnetz
+baseurl: "/abwasser-stegesiedlung"
+url: "https://thimble9633.github.io"
+
+theme: null
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - sample.jpg
+  - README.md

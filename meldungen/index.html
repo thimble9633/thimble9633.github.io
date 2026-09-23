@@ -1,0 +1,31 @@
+---
+layout: default
+title: Aktuelle Meldungen
+permalink: /meldungen/
+---
+
+<div class="page-content">
+  <p class="section__eyebrow" style="margin-bottom:0.5rem">Neuigkeiten</p>
+  <h1>Aktuelle Meldungen</h1>
+  <p style="color:var(--color-text-muted);margin-bottom:2.5rem">
+    Alle Informationen und Updates zum Bauprojekt in chronologischer Reihenfolge.
+  </p>
+
+  {% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <a class="post-item" href="{{ post.url | relative_url }}">
+      <span class="post-item__date">{{ post.date | date: "%d.%m.%Y" }}</span>
+      <div>
+        <div class="post-item__title">{{ post.title }}</div>
+        <div class="post-item__excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="card">
+    <p class="card__text">Noch keine Meldungen veröffentlicht. Schauen Sie bald wieder vorbei.</p>
+  </div>
+  {% endif %}
+</div>

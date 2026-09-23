@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="post-content">
+  <a href="{{ '/meldungen/' | relative_url }}" style="font-size:0.875rem;color:var(--color-text-muted);text-decoration:none">← Alle Meldungen</a>
+  <h1 style="margin-top:1rem">{{ page.title }}</h1>
+  <p class="post-meta">{{ page.date | date: "%d. %B %Y" }}</p>
+  <div class="body">
+    {{ content }}
+  </div>
+</div>
