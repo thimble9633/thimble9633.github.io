@@ -561,13 +561,11 @@ details.faq-item[open] summary::after {
   .page-content { margin: 1.5rem auto; }
   .page-content h1 { font-size: 1.75rem; }
 
-  .site-header__nav {
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .nav-link { font-size: 0.8rem; padding: 0.35rem 0.5rem; white-space: nowrap; }
+  .site-header { padding: 0.6rem 0; }
+  .site-header .container { flex-direction: column; align-items: stretch; gap: 0.3rem; }
+  .site-header__brand { font-size: 0.65rem; }
+  .site-header__nav { display: flex; gap: 0; justify-content: space-between; }
+  .nav-link { font-size: 0.8rem; padding: 0.35rem 0.4rem; flex: 1; text-align: center; }
 
   .status-card__header { flex-wrap: wrap; gap: 0.5rem; }
 }
