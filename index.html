@@ -13,7 +13,7 @@ title: Überblick
         was als Nächstes kommt.
       </p>
       <div class="hero__actions">
-        <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--primary">Aktuelle Meldungen</a>
+        <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--primary">Informationen</a>
         <a href="{{ '/faq/' | relative_url }}" class="btn btn--outline">Fragen &amp; Antworten</a>
       </div>
     </div>
@@ -64,7 +64,7 @@ title: Überblick
   </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
   <div class="container">
     <div class="section__header">
       <p class="section__eyebrow">Was Sie wissen müssen</p>
@@ -99,13 +99,13 @@ title: Überblick
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="section section--alt">
   <div class="container">
     <div class="section__header">
       <p class="section__eyebrow">Neuigkeiten</p>
-      <h2 class="section__title">Aktuelle Meldungen</h2>
+      <h2 class="section__title">Informationen</h2>
     </div>
     <ul class="post-list">
       {% for post in site.posts limit:3 %}
@@ -119,7 +119,7 @@ title: Überblick
       {% endfor %}
     </ul>
     <p style="margin-top:1.5rem">
-      <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--outline">Alle Meldungen →</a>
+      <a href="{{ '/meldungen/' | relative_url }}" class="btn btn--outline">Alle Informationen →</a>
     </p>
   </div>
 </section>

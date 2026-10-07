@@ -20,6 +20,3 @@ Das Bezirksamt verweist die Initiative an:
 - **Berliner Wasserbetriebe (BWB)** – für Auskünfte zur Erschließungsplanung
 - **Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt** – für Fragen zum Kanalnetzausbau und zu Einleitstellen
 
-## Nächste Schritte
-
-Die Initiative wird sich entsprechend der Empfehlung des Bezirksamts direkt an die Berliner Wasserbetriebe und die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt wenden.
