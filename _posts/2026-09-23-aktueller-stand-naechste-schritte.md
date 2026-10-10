@@ -13,7 +13,7 @@ Nach dem Schreiben an Senatsverwaltung und Bezirk vom 12. August 2026 hat das Be
 ## Nächste Schritte
 
 - **Berliner Wasserbetriebe (BWB)**: Schreiben an die Wasserbetriebe mit dem Bezug zu den Kosten der Entleerung und dem Äquivalenzprinzip.
-- **Einreichen einer Petition**: Die Initiative will eine Petition einreichen und das Problem schildern. Der Petitionsausschuss muss sich dann mit dem Problem auseinandersetzen.
+- **Einreichen einer Petition**: Die Initiative will eine Petition einreichen und das Problem schildern. Der Petitionsausschuss muss sich dann mit dem Problem auseinandersetzen. Die eingereichte Petition ist als [PDF-Dokument](/assets/2026-10.10-Petition-Abwasser.pdf) verfügbar. Anwohner, die sich der Sache anschließen möchten, können die [Unterschriftenliste](/assets/2026-10-01-Unterschriftenliste_Petition_Stegesiedlung.pdf) herunterladen und unterzeichnen.
 - **Anpassen des Berliner Straßengesetzes**: Hr. Bozian hat vorgeschlagen, dass Berliner Straßengesetzt dahingehend zu ändern, dass ein Abwasserkanal gleichgestellt wird mit anderen Versorgungsleitungen, wie z.B. einer Gasleitung.
 
 <!-- ## Erweiterung des Vorstands der Wassergemeinschaft
